@@ -27,6 +27,6 @@ chooseSam = 1;
 
 % the recommendation list is generated in function "drive"
 % and stored in 'recs.dat';
-% the output_matrix shows precision, diversity, and popularity bias for
+% the output_matrix shows precision, diversity, and popular bias for
 % the recommendation list
 [output_matrix]=drive('mlNew.csv', a_max, a_min, p_max, p_min, q_max, q_min, s1, s2, s3, chooseSam);
