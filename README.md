@@ -26,9 +26,10 @@ Also, they can choose one sampling strategy for implementation by changing the v
 7: Sampler_Combination   
 
 In the function 'drive.m',
-it calls function 'initialization.m' to generate training set, test set, popularity vector and similarity matrix in advance.
+the program calls function 'initialization.m' to generate training set, test set, popularity vector and similarity matrix.
 Then, it can conduct parameter optimization based on the input.
 In each cycle, the program conducts 5-fold cross-validation.
-It calls function 'BPR.m' and 'runRecommendations.m' to apply the recommender model and generate the recommendation list.
+It calls function 'BPR.m' and 'runRecommendations.m' to apply the recommender model and generate the recommendation lists in 'recs.dat'.
 Finally, it calls function 'aggregatePerf.m' to estimate the corresponding precision, diversity and popular bias.
 
+The test results are displayed in 'Results.xlsx' with detailed specifications.
