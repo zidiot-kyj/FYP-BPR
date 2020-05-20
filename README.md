@@ -1,4 +1,4 @@
-# FYP-BPR-
+# FYP-BPR
 
 Project title: Bayesian Personalised Ranking for Accuracy, Diversity and Pairwise Recommendations
 
