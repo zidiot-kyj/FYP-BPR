@@ -139,7 +139,7 @@ for pass=1:numPasses,
                     byuser,uniformsampling, MR, SIM);
         else
             [users,items1,items2] = Sampler_Combination(numSamples,nitems,nusers,row,col,xadj,adj,deg,...
-                    byuser,uniformsampling, MR, SIM);
+                    byuser,uniformsampling, MR, SIM_NOR);
         end
     end
     
